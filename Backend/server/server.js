@@ -9,7 +9,7 @@ const bodyParser = require("body-parser");
 const SignupSchema = require("./models/SignupModel");
 const BudgetSchema = require("./models/BudgetModel");
 const ExpenseSchema = require("./models/ExpenseModel");
-let url = "mongodb+srv://abhivarmajampana:<homekphb123>@cluster0.4fwjnwp.mongodb.net/";
+let url = "mongodb+srv://abhivarmajampana:homekphb123@cluster0.4fwjnwp.mongodb.net/p-budget";
 
 const bcrypt = require("bcrypt");
 const port = 3002;
