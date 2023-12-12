@@ -1,0 +1,62 @@
+/* CSS for LoginPage component */
+
+/* Center the section and align the text */
+section {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  background-color: #f2f2f2; /* Light background color */
+}
+
+/* Style for the form section */
+section > section {
+  display: inline-block;
+  text-align: left;
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Box shadow for the form */
+}
+
+/* Style for the heading */
+h2 {
+  margin-left: 10px; /* Adjusted margin for the heading */
+  font-size: 24px; /* Increased font size */
+  color: #333; /* Darker color for the heading */
+}
+
+/* Style for error message */
+p {
+  color: #ff6347; /* Red color for error messages */
+  margin-top: 10px; /* Adjusted margin for error messages */
+}
+
+/* Style for form inputs */
+input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  padding: 8px;
+  border: 1px solid #ccc; /* Light border color */
+  border-radius: 4px;
+  width: 220px; /* Adjusted width for inputs */
+}
+
+/* Style for the submit button */
+button {
+  margin-left: 5px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  background-color: #1e90ff; /* Blue color for the button */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0066cc; /* Darker blue color on hover */
+}
